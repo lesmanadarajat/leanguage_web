@@ -14,4 +14,5 @@ echo '<br>';
 // mencari suatu kata di dlm str, klo ada dia true klo gada di false
 echo strpos($x, 'L7');
 
+
 ?>
