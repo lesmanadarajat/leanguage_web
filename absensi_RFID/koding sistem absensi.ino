@@ -12,8 +12,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 const char *GScriptId = "MASUKKAN ID PENERAPAN";
 
 // Enter network credentials:
-const char* ssid     = "Bengkel Bubut";
-const char* password = "12345678a";
+const char* ssid     = "XXXXXXXX";
+const char* password = "xxxxxxxx";
 
 // Enter command and sheet name:
 String payload_base = "{\"command\": \"insert_row\", \"sheet_name\": \"Sheet1\", \"values\": ";
@@ -241,3 +241,4 @@ void ReadDataFromBlock(int blockNum, byte readBlockData[])
     Serial.println("Block was read successfully");
   }
 }
+
